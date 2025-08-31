@@ -48,14 +48,3 @@ data-displaypx="50">
 </div>
 
 <script src="js/paynowqr_img_base64.js"></script>
-<script>
-(window.paynowQRify
-	? window.paynowQRify
-	: (...a)=>((window.__paynowQR_queue=window.__paynowQR_queue||[]).push(a))
-	)('.paynowQrSlot', {
-		logo: (window.paynowLogoBase64 || null),
-		displayPx: 50,
-		dark: '#79207a',
-		light: '#ffffff'
-	});
-</script>
