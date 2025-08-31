@@ -102,6 +102,8 @@
 			imgEl.style.width = imgEl.style.height = displayPx + 'px';
 			
 			el.dataset.qrDone = '1';  // mark processed
+			el.classList.remove('paynowQrSlot');
+			el.classList.add('paynowQrSlot_processed');
 			return dataUrl;
 		}
 		
