@@ -122,6 +122,17 @@ Example:
 - Script loads external libraries (PaynowQR and QRCode) asynchronously.
 - Elements are processed once unless `rerender` option is set.
 
+## License
+
+This project is licensed under the MIT License. See the license header in `js/paynowqr_img_base64.js` for details.
+
+It uses the following open-source libraries:
+
+- **PaynowQR**: MIT License (assumed based on common open-source practices)
+- **QRCode.js**: MIT License (https://github.com/soldair/node-qrcode)
+
+For business use, all components are compatible with commercial applications under their respective licenses. Please verify the exact license terms of the dependencies if needed.
+
 ## Dependencies
 
 - PaynowQR library (js/paynowqr.min.js)
